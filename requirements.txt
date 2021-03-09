@@ -1,0 +1,6 @@
+numpy==1.19.2
+matplotlib==3.3.4
+Keras==2.4.3
+tensorflow==2.4.1
+imageio==2.9.0
+Pillow==8.1.2
