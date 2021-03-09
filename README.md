@@ -34,10 +34,10 @@ Finding the correct subset of items required a good deal of familiarity with the
 
 The entire process of collecting, cleaning and storing the data was documented in a set of Jupyter Notebooks.
 
-The two intial API calls: [1.acquire_image_urls](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/1.acquire_image_urls.ipynb)
-The web scrape and data storage: [2.images_postgreSQL_and_scrape](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/2.images_postgreSQL_and_scrape.ipynb)
-Cleaning and further organization of the data: [3.clean_and_organize_data](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/3.clean_and_organize_data.ipynb)
-Selecting the vases and additional cleaning/perparation: [4.select_and_clean_vase_data](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/4.select_and_clean_vase_data.ipynb)
+*The two intial API calls: [1.acquire_image_urls](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/1.acquire_image_urls.ipynb)
+*The web scrape and data storage: [2.images_postgreSQL_and_scrape](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/2.images_postgreSQL_and_scrape.ipynb)
+*Cleaning and further organization of the data: [3.clean_and_organize_data](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/3.clean_and_organize_data.ipynb)
+*Selecting the vases and additional cleaning/perparation: [4.select_and_clean_vase_data](https://github.com/spencer-wallace/gan_project/blob/main/Data%20Collection%20and%20Cleaning/4.select_and_clean_vase_data.ipynb)
 
 Finally, a copy of the dataset is provided: vase_image_data.zip
 Please note that due to size limitations for files from GitHub, the files found in the zipped folder are smaller than those I used on my local machine. If you would like the higher resolution images, you can use the notebooks listed aboce to acquire the data. 
