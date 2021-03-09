@@ -1,4 +1,4 @@
-# Artwork Generation Using Generative Adversarial Networks and Met Images#
+# Artwork Generation Using Generative Adversarial Networks and Met Images #
 ## Introduction  ##
 Since first being proposed by Goodfellow et al, Generative Adversarial Networks(GANs) have occupied a significant place in the debate surrounding AI. These networks have drawn interest from academic spheres as well as the general public. Academic interest has led to additional diversification of and improvements on Goodfellow et al's concept with variations such as style gans and info gans growing increasingly popular. These GANs have found their way into the public discourse as they power the popular app FaceApp, are behind thispersondoesnotexist.com, and are frequently used in deepfakes. GANs seem poised to continue playing a role in the developing AI landscape as they continue to improve and expand in their capabilities.
 
@@ -20,8 +20,8 @@ The general aims relate to how what has been learned and done at the specific le
 
 The general and specific level aims dovetail nicely as the specific aims shape the general aims and the general aims help simplify and smooth the process of the specific aims. 
 
-## Project  Overview##
-### Data Collection, Preparation and Storage
+## Project  Overview ##
+### Data Collection, Preparation and Storage ###
 Utilizing a combination of API calls and web scraping, 500,000 images and the corresponding data of artwork and artifacts were collected from the New York Metropolitan Muesuem of Art's online collections. This required an initial API call which brought back a list of the object IDs of all the work in the collections. This list could then be used in a second API call in order to acquire the links for the images which then allowed for a web scrape to obtain the images. The data and images were then cleaned and stored. The data relating to the image was stored in PostgreSQL while the images were stored on an external disk using their image ID as a way to connect to their row in the SQL table. In order to make the GAN work as well as possible, a subset of these images needed to be selected for a number of reasons:
 1. The dataset is far too large from a computational perspective
 2. The dataset is varied, with a mixture of artifacts and works of art from across human history. This means many of the images have littel to nothing in common. This makes training a GAN very difficult. 
@@ -42,7 +42,7 @@ Selecting the vases and additional cleaning/perparation: [4.select_and_clean_vas
 Finally, a copy of the dataset is provided: vase_image_data.zip
 Please note that due to size limitations for files from GitHub, the files found in the zipped folder are smaller than those I used on my local machine. If you would like the higher resolution images, you can use the notebooks listed aboce to acquire the data. 
 
-## Getting Started##
+## Getting Started ##
 Note: The project was developed using Python 3 on an Anaconda distribution. Installation instructions can be found [here](https://docs.anaconda.com/anaconda/install/).
 To get started, first install the required libraries inside a virtual environment:
 
