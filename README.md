@@ -62,9 +62,29 @@ To run a GAN, start by opening [gan_search](https://github.com/spencer-wallace/g
 </code></pre>
 
 The gan_library also contains a number of tools within the viz_tools file that can help visualize the progression of a GAN. There are tools to create a GIF of each epoch's generated image anotated with its scores and settings as well as a tool to create a GIF of the image alongside a graph of scores with several settings for how the graph is displayed.
- 
+
+## Key Learnings ##
+During the course of this project, a number of skills were greatly enhanced including:
+1. Handling and processing image data
+2. Understanding and application of convolutional neural network architectures
+3. Understanding of how to implement and train generative adversarial networks
+
+Looking at the results, there are a few key takeaways to consider: 
+1. Finding the correct size of training set is crucial and can be a challenge. Large enough datasets are necesary to train the model, but as model size increases, training time and computational needs also ramp up making training more difficult.
+2. Finding the correct settings for a GAN can be difficult given the level of complexity built into the model. By creating a standardized library and systematically searching a hyperparameter space, much can be learned about the settings that work best. In the case of this dataset, the most important takeaways are:
+    1. Beyond 2 layer of convolution, scores and images begin to worsen. This may be due to the very simplistic nature of these images, which consist of single objects and a background.
+    2. Generator models need a faster learning rate than discriminator models. In this case, best resutls were found when the generator learning rate was 10 to 100 times faster than the discriminator learning rate.
+
 ## Dependencies ##
 Please see [requirements.txt](https://github.com/spencer-wallace/gan_project/blob/main/requirements.txt)
+
+
+## Future Developments Roadmap ##
+A desired raodmap of future developments for this project is as follows:
+1. Develop a infoGAN module to be aloow model to distinguish between different subcategories of image
+2. Create an infoGAN module that allows for multiple categories for each image in order to be able to assign tags to each photo which can aid in training a model that responds to specific inputs.
+3. Build an NLP module that will be able to take a description of the image. The idea is that in this way, a description of an image can be broken down into a set of tags to train the multiple category infoGAN described in step 2 with the end result being a model that can take in a description and generate an image that correlates to that description. 
+
 
 ## License ##
 The data was provided by the New York Metropolitan Museum where it is held under a [Creative Commons Zero v1.0 Universal License](https://github.com/metmuseum/openaccess/blob/master/LICENSE)
