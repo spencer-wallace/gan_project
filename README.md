@@ -1,4 +1,8 @@
 # Artwork Generation Using Generative Adversarial Networks and Met Images #
+output_0.jpg![image](https://user-images.githubusercontent.com/72563111/111769421-1f3aee00-88a1-11eb-8699-33a6bd89ea0a.png)
+output_1.jpg![image](https://user-images.githubusercontent.com/72563111/111769491-32e65480-88a1-11eb-81c5-58780db29e7f.png)
+
+
 ## Introduction  ##
 Since first being proposed by Goodfellow et al, Generative Adversarial Networks(GANs) have occupied a significant place in the debate surrounding AI. These networks have drawn interest from academic spheres as well as the general public. Academic interest has led to additional diversification of and improvements on Goodfellow et al's concept with variations such as style gans and info gans growing increasingly popular. These GANs have found their way into the public discourse as they power the popular app FaceApp, are behind thispersondoesnotexist.com, and are frequently used in deepfakes. GANs seem poised to continue playing a role in the developing AI landscape as they continue to improve and expand in their capabilities.
 
