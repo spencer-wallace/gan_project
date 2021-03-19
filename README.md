@@ -1,6 +1,8 @@
 # Artwork Generation Using Generative Adversarial Networks and Met Images #
 ![image](https://user-images.githubusercontent.com/72563111/111769421-1f3aee00-88a1-11eb-8699-33a6bd89ea0a.png)
 ![image](https://user-images.githubusercontent.com/72563111/111769491-32e65480-88a1-11eb-81c5-58780db29e7f.png)
+![image](https://user-images.githubusercontent.com/72563111/111769680-67f2a700-88a1-11eb-81b4-656a08ac9eb9.png)
+
 
 
 ## Introduction  ##
